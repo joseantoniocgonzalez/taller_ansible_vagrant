@@ -3,6 +3,6 @@ all:
     servidores:
       hosts:
         ansible: 
-          ansible_ssh_host: 192.168.1.173
+          ansible_ssh_host: 172.22.9.43
           ansible_ssh_user: debian
           ansible_ssh_private_key_file: /home/jose/.ssh/id_rsa
