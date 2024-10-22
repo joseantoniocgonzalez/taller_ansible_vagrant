@@ -4,7 +4,5 @@ all:
       hosts:
         ansible: 
           ansible_ssh_host: 192.168.1.173
-          ansible_ssh_user:  debian
-          ansible_ssh_private_key_file:  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCxwFNFT4N6Qd0+hkNco3BOS+iVRGjwms9PRNhjixNnGZYs1mFPccEzJ/e3yYGWp/BD5xkcJcvhTA7NHWg4BBAxT75P10pUE+7YGnFQ4ZZGZOOoxrWhdxi0QLZ0GBpTa6LnpiGtX6OTtew06AVy7+FX9dKLlWYzdfJWeuEPvV9mQtGjeqAZlanVUZavXR00I9pU56IBMvmJ3wvnvDh4U+8Wg8YDK6DLZFRQAQZR1tJaQvvsrww13omz08R9Dz+rUI5AAdU0UE8/TtLMGwVq5/P2ap9LfM7PQNuzXTilro4iWoSOiB5W3gsfutxddT3k8Ias/XseqyPOt5sGgeREbbwxx2dgorTZUq1aGLyAzHfv+9o7lLasikJAdgY7OKfR8BDz8fN+nXTFlmtI1bYHIyoFd6jG5FXOgVxz0tcyHalIIQl9peQsiE8Y6eEADsnZsvJtB893jaqaPl7zRKtJ2hnRTU0JIYwL3jcyySgbFSFC8V+8cQUrJglRkbY3yqRxid4QO6TcKhfCk+AOpUXYSS1u0K14Mx3JNeSq3P+U9dVM58mGBtRq9qpKRTlInyxJR3cLGC+W+CdFUEcbdtmal1D5SpKwTiNNk5XnzQeW4ZI0PN4zHAbvSzuFj0+tSqxl10TNm7rcSDNENtCj91IFKWElR4ImhFeQ84n33tCQ+peYCw== er.joselin@gmail.com
-
-    
+          ansible_ssh_user: debian
+          ansible_ssh_private_key_file: /home/jose/.ssh/id_rsa
